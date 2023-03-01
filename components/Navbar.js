@@ -13,22 +13,25 @@ export default function Navbar() {
                 <p>about</p>
             </Link>
             
-            <Link href="/portfolio">
+            {/* <Link href="/portfolio">
                 <p>portfolio</p>
-            </Link>
+            </Link> */}
             
             <Link target="_blank" href="https://docs.google.com/document/d/1xWhjeHxYRFYAVxVNPQBtWaKZqFR_0V2R55OivuMH3WQ/edit?usp=sharing">
                 <p>resume</p>
             </Link>
             
             {/* outside sources use regular a tags */}
-            <a target="_blank" href="https://github.com/PvrkFvmily">
-                <img className='github' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width={20} height={20} />
-            </a>
+            <div>
+                <a target="_blank" href="https://github.com/PvrkFvmily">
+                    <img className='github' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width={50} height={50} />
+                </a>
 
-            <a target="_blank" href="https://www.linkedin.com/in/parkfamily/">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width={20} height={20}/>
-            </a>
+                <a target="_blank" href="https://www.linkedin.com/in/parkfamily/">
+                    <img className='linkedin' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" width={50} height={50}/>
+                </a>
+            </div>
+
         </nav>
     )
 }
