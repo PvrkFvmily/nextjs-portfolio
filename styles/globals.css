@@ -1,12 +1,13 @@
 /* here in this file we do 'pure' selectors
 ie element selectors and media queries */
-/* html {
-  background-color: wheat
-} */
-/* 
-h1 {
-  color: chartreuse
-} */
+html {
+  background-color: black
+}
+
+h1,h2,h3,p {
+  color: rgb(127, 255, 0)
+}
+
 
 /* :root {
   --max-width: 1100px;

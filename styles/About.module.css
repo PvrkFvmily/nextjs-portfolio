@@ -2,5 +2,13 @@
 /* CANNOT DO element selectors */
 
 .coolColor {
-    color: darkturquoise
+    color: rgb(0, 206, 209);
+}
+
+.hotColor {
+    color: rgb(255, 105, 180);
+}
+
+.github {
+    filter: invert(100%);
 }

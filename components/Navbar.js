@@ -6,24 +6,24 @@ export default function Navbar() {
         <nav>
             <Link href="/">
                 {/* links take any child components */}
-                Home
+                <p>home</p>
             </Link>
-
+            
             <Link href="/about">
-                About Me
+                <p>about</p>
             </Link>
             
             <Link href="/portfolio">
-                Portfolio
+                <p>portfolio</p>
             </Link>
             
             <Link target="_blank" href="https://docs.google.com/document/d/1xWhjeHxYRFYAVxVNPQBtWaKZqFR_0V2R55OivuMH3WQ/edit?usp=sharing">
-                Resume
+                <p>resume</p>
             </Link>
             
             {/* outside sources use regular a tags */}
             <a target="_blank" href="https://github.com/PvrkFvmily">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width={20} height={20}/>
+                <img className='github' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width={20} height={20} />
             </a>
 
             <a target="_blank" href="https://www.linkedin.com/in/parkfamily/">
