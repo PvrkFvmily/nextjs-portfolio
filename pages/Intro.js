@@ -3,13 +3,26 @@ import styles from "../styles/About.module.css"
 export default function Intro() {
     return (
         <div>
-          {/* make it look it name tag */}
-          <h2>Hello</h2>
-          <h3>my name is</h3>
-          <h1>Daniel</h1>
-          <div>
-            <img src="https://i.imgur.com/qwsAwsT.png"></img>
+
+          <div className="nameTag">
+            {/* make it look it name tag */}
+
+            <div className="nameTagForm">
+              <h1>Hello</h1>
+              <p>my name is</p>
+            </div>
+
+            <div className="myName">
+              <h1>Daniel</h1>
+              <style jsx>{`
+                h1 {
+                  color: rgb(0,0,0)
+                }
+              `}</style>
+            </div>
+            
           </div>
+
         </div>
     )
 }

@@ -6,16 +6,69 @@ html {
 
 h1,h2,h3,p {
   color: rgb(51,255,51);
+  margin: 10px auto;
   /* color: rgb(255,176,0); */
 }
 
+
 .github {
   background-color: rgb(51,255,51);
+
+
 }
 
 .linkedin {
   background-color: rgb(51,255,51);
 }
+
+.nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(0,0,0);
+  width: 100%;
+  font-size: xx-large;
+}
+
+.nav-item {
+  margin-right: 3rem;
+}
+
+.nameTag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(51,255,51);
+  margin: 150px auto;
+  width: 700px;
+  height: 500px;
+  /* background-color: rgb(51,255,51); */
+  border-radius: 20px;
+  font-size: 2rem;
+}
+
+.nameTagForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.myName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51,255,51);
+  margin-top: 10;
+  width: 100%;
+  height: 60%;
+  font-size: 5rem;
+}
+
+
 
 /* :root {
   --max-width: 1100px;

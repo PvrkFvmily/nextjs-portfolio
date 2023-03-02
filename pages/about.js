@@ -1,34 +1,34 @@
 // // this is going to be our /about
-// import styles from "../styles/About.module.css"
+import styles from "../styles/About.module.css"
 
-// export default function About() {
-//     return (
-//         <div>
-//             <h1>About me</h1>
+export default function About() {
+    return (
+        <div>
+            <h1>About me</h1>
 
-//             <p className={styles.coolColor}>I am now a super cool software engineer, I make neat stuff with the codes™</p>
+            <p className={styles.coolColor}>I am now a super cool software engineer, I make neat stuff with the codes™</p>
 
-//             <p>{`don't use apostrophes unless they are in backticks`}</p>
+            <p>{`don't use apostrophes unless they are in backticks`}</p>
 
-//             <h2>I am a different color</h2>
-//             {/* styled jsx is great for conditional rendering! */}
-//             <style jsx>{`
-//                 h2 {
-//                     color: purple;
-//                 }
-//             `}</style>
+            <h2>I am a different color</h2>
+            {/* styled jsx is great for conditional rendering! */}
+            <style jsx>{`
+                h2 {
+                    color: purple;
+                }
+            `}</style>
 
-//             {/* two ways of rendering images: stored locally and a url */}
-//             <img
-//                 src='/next.svg'
-//                 alt="logo of my next favorite framework"
-//             />
+            {/* two ways of rendering images: stored locally and a url */}
+            <img
+                src='/next.svg'
+                alt="logo of my next favorite framework"
+            />
 
-//             {/* getting image from outside source */}
-//             <img 
-//                 src="https://placekitten.com/300/600"
-//                 alt="a magnificent creature"
-//             />
-//         </div>
-//     )
-// }
+            {/* getting image from outside source */}
+            <img 
+                src="https://placekitten.com/300/600"
+                alt="a magnificent creature"
+            />
+        </div>
+    )
+}
