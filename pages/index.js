@@ -20,17 +20,23 @@ export default function Home() {
       <div>
         {/* introduction */}
         <Intro/>
+      </div>
 
+      <div id="aboutMe">
         {/* about me */}
         <Aboutme />
+      </div>
 
+      <div id="techs">
         {/* Techs */}
         <Techs />
-
+      </div>
+      
+      <div id="projects">
         {/* Projects */}
         <Portfolio />
-        
       </div>
+
     </div>
   )
 }

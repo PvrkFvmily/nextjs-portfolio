@@ -1,3 +1,4 @@
+import styles from "../styles/About.module.css"
 
 export default function Techs() {
     return (
@@ -23,6 +24,12 @@ export default function Techs() {
                 <p className="tech-list">Adobe Illustrator</p>
                 <p className="tech-list">Adobe Photoshop</p>
             </div>
+            <style jsx>{`
+                p {
+                    color: rgb(51,255,51);
+                    margin: 20px 1px; 
+                }
+            `}</style>
         </div>
     )
 }

@@ -7,19 +7,34 @@ export default function Navbar() {
             <div className='nav-item'>
                 <Link href="/">
                     {/* links take any child components */}
-                    <p>home</p>
+                    <p>Home</p>
+                </Link>
+            </div>
+            
+            <div className='nav-item'>
+                <Link href="#aboutMe" scroll={false}>
+                    {/* links take any child components */}
+                    <p>About Me</p>
                 </Link>
             </div>
 
-            {/* <div className='nav-item'>
-                <Link href="/about">
-                    <p>about</p>
+            <div className='nav-item'>
+                <Link href="#techs">
+                    {/* links take any child components */}
+                    <p>Techs</p>
                 </Link>
-            </div> */}
+            </div>
+            
+            <div className='nav-item'>
+                <Link href="#projects">
+                    {/* links take any child components */}
+                    <p>Projects</p>
+                </Link>
+            </div>
 
             <div className='nav-item'>
                 <Link target="_blank" href="https://docs.google.com/document/d/1xWhjeHxYRFYAVxVNPQBtWaKZqFR_0V2R55OivuMH3WQ/edit?usp=sharing">
-                    <p>resume</p>
+                    <p>Resume</p>
                 </Link>
             </div>
             

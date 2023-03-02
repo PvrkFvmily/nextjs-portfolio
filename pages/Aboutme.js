@@ -14,11 +14,11 @@ export default function Aboutme() {
                 <style jsx>{`
                     h2 {
                         margin-top: 30px;
-                        text-indent: 50px;
+                        text-indent: 15%;
                         font-size: 2rem;
                     }
                     p {
-                        padding: 50px;
+                        padding: 20px;
                         font-size: 2rem;
                     }
                 `}</style>
