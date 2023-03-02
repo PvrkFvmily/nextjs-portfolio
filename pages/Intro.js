@@ -1,4 +1,3 @@
-import styles from "../styles/About.module.css"
 
 export default function Intro() {
     return (
@@ -20,7 +19,7 @@ export default function Intro() {
                 }
               `}</style>
             </div>
-            
+
           </div>
 
         </div>
